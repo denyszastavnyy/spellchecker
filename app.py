@@ -36,7 +36,7 @@ def correct(text):
 demo = gr.Interface(
     fn=correct,
     inputs=[
-        gr.Textbox(lines=8, label="Текст з помилками"),
+        gr.Textbox(lines=8, label="Текст"),
     ],
     outputs=gr.Textbox(label="Виправлений текст"),
     title="Виправлення помилок у тексті",
